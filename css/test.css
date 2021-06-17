@@ -1,15 +1,14 @@
 .body{
-	background-image:url("../img/bg1.jpg");
     font-family: 'KoHo', sans-serif;
+    font-size: 1.25rem;
+    background: url(https://cdn.wallpapersafari.com/12/21/THZVnD.jpg) no-repeat;
+    background-color:#C1D8E5;
 }
 .logo{
     width: 3rem;
 }
 .nav-bg{
-    background: linear-gradient(to right,#5B33CA,#8853A1);
-}
-.myRow{
-    Height: 50vh;
+    background: linear-gradient(to right,#142C44,#1D334B);
 }
 .myBg{
     background: linear-gradient(90deg,#AE89D9,#968BEB);
@@ -18,3 +17,33 @@
     background: linear-gradient(to left,#5B33CA,#8853A1);
     border: 1px solid #AE89D9;
 }
+.mainContainer{
+    margin: 7% auto auto;
+}
+.horizontal-divider{
+    height: 3px;
+    background-color: #27251F;
+    margin: 0 0 2rem 0;
+}
+h1, h2, h3, h4, h5{
+    color: #54585A;
+    font-weight: bold;
+}
+footer{
+    color:white;
+    text-align: center;
+    padding: 5px;
+    background: linear-gradient(to right,#142C44,#1D334B);
+}
+.mainFooter{
+    position: fixed;
+    left:0px;
+    bottom: 0px;
+    width: 100%;
+}
+.carousel-caption{
+    color: black;
+}
+.pic:hover {
+    transform: scale(1.4);
+  }

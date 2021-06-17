@@ -3,147 +3,120 @@
     <HEAD>
         <TITLE> Sleep </TITLE>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
-        <link href="bootstrap-5.0.1-dist/css/bootstrap.min.css" rel="stylesheet"> 
-        <script src="jquery-3.6.0.js"></script>
-        <script src="bootstrap-5.0.1-dist/js/bootstrap.min.js"> </script>                  
+        <link href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,400;1,300&display=swap" rel="stylesheet">              
         <link href="css/test.css" rel="stylesheet"> 
     </HEAD>
     <BODY class = "body">
-        <nav class = "navbar navbar-fixed-top navbar-expand-lg nav-bg navbar-dark">
-            <div class="container-fluid">
+        <nav class = "navbar navbar-fixed-top fixed-top navbar-expand-lg nav-bg navbar-dark">
+            <div class="container-fluid ">
                 <a class="navbar-brand" href="#">
-                    <img src = "img/logo.png" class = "logo">
+                    <img src = "img/logo.svg" class = "logo">
                 </a>
+                <h1 class = "text-white">
+                    Health
+                </h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Lorem Ipsum</a>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" aria-current="page" href="index.html">Головна</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" target="_blank" href="#">Lorem Ipsum</a>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" target="_blank" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Зв'язок</a>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" target="_blank" href="#">Lorem Ipsum</a>
-                        </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown ms-3">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Lorem Ipsum
+                                Наші статті
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Lorem Ipsum</a></li>
+                                <li><a class="dropdown-item" href="page1.html">Сон</a></li>
                                 <div class="dropdown-divider"></div>
-                                <li><a class="dropdown-item" href="#">Lorem Ipsum</a></li>
+                                <li><a class="dropdown-item" href="page2.html">Спорт</a></li>
                                 <div class="dropdown-divider"></div>
-                                <li><a class="dropdown-item" href="#">Lorem Ipsum</a></li>
+                                <li><a class="dropdown-item" href="page3.html">Харчування</a></li>
                             </ul>
                         </li>
                     </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-success" type="submit">Search</button>
-                    </form>
                   </div>
             </div>
         </nav>
-        <div class="container">
-            <div class="row align-items-center myRow">
-                <div class="col-lg-4 w-50">
-                    <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class = "container mainContainer">
+            <div class = "row">
+                <div class = "col">
+                    <h1>
+                        Здоровий спосіб життя – шлях до здоров’я
+                    </h1>
+                    <p>
+                        Здоров’я – це сукупність фізичних, духовних, соціальних якостей людини, що є основною її довголіття та необхідною умовою здійснення творчих планів, високої працездатності, створення сім’ї, народження й виховання дітей.
+                    </p>
+                    <p>
+                        Фізичне здоров’я дає гарне самопочуття, бадьорість, силу. Психічне – дарує спокій та чудовий настрій. Їх можна сформувати тільки шляхом отримання знань і постійної роботи над собою. Для того, щоб зберегти своє здоров’я, треба докладати неабияких зусиль, адже стан здоров’я людини залежить на 20 % від спадковості, на 10 % – від рівня розвитку медицини, на 20 % – від стану довкілля, на 50 % – від способу життя.
+                    </p>
+                    <p>
+                        Здоровий спосіб життя – це дії, спрямовані на запобігання захворювань, зміцнення всіх систем організму та поліпшення загального самопочуття людини.
+                    </p>
+                </div>
+                <div class = "col">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="img/sleep.jpg" class="d-block img-fluid" alt="sleep">
+                                <img src="img/sleep.jpg" class="d-block w-100" alt="sleep">
                             </div>
                             <div class="carousel-item">
-                                <img src="img/meditation.jpg" class="d-block img-fluid" alt="meditation">
+                                <img src="img/sport.jpg" class="d-block w-100" alt="sport">
                             </div>
                             <div class="carousel-item">
-                                <img src="img/sport.jpg" class="d-block img-fluid" alt="sport">
-                            </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-                </div>
-                <div class = "col-lg-4 w-50">
-                    <div class="accordion accordion-flush" id="accordionFlush">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    Lorem Ipsum
-                                </button>
-                            </h2>
-                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlush">
-                                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus massa ut volutpat sagittis. Nunc eleifend tincidunt quam non faucibus. Phasellus ac pretium mi. Donec vitae leo eu quam bibendum pretium. Duis hendrerit orci sapien, ut tempus quam placerat vitae. Vestibulum suscipit lobortis dolor, eget ultricies elit bibendum ut. Aenean at leo sit amet metus pharetra lobortis at vitae dolor.</div>
+                                <img src="img/food.webp" class="d-block w-100" alt="food">
                             </div>
                         </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="flush-headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                Lorem Ipsum
-                            </button>
-                          </h2>
-                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlush">
-                            <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus massa ut volutpat sagittis. Nunc eleifend tincidunt quam non faucibus. Phasellus ac pretium mi. Donec vitae leo eu quam bibendum pretium. Duis hendrerit orci sapien, ut tempus quam placerat vitae. Vestibulum suscipit lobortis dolor, eget ultricies elit bibendum ut. Aenean at leo sit amet metus pharetra lobortis at vitae dolor.</div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="flush-headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                Lorem Ipsum
-                            </button>
-                          </h2>
-                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlush">
-                            <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus massa ut volutpat sagittis. Nunc eleifend tincidunt quam non faucibus. Phasellus ac pretium mi. Donec vitae leo eu quam bibendum pretium. Duis hendrerit orci sapien, ut tempus quam placerat vitae. Vestibulum suscipit lobortis dolor, eget ultricies elit bibendum ut. Aenean at leo sit amet metus pharetra lobortis at vitae dolor.</div>
-                        </div>
-                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 offset-lg-4 w-50">
-                    <div class="card" style="width: 25rem;">
-                        <img src="img/card.jpg" class="card-img-top " alt="Jellyfish">
-                        <div class="card-body myBg">
-                            <h5 class="card-title"> Lorem Ipsum</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus massa ut volutpat sagittis. Nunc eleifend tincidunt quam non faucibus.</p>
-                            <button type="button" class="btn btn-primary me-2 myBtn" data-bs-toggle="modal" data-bs-target="#Modal" >Lorem Ipsum</button>
-                            <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="ModalLabel">Lorem Ipsum</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer maximus massa ut volutpat sagittis. Nunc eleifend tincidunt quam non faucibus. Phasellus ac pretium mi. Donec vitae leo eu quam bibendum pretium. Duis hendrerit orci sapien, ut tempus quam placerat vitae. Vestibulum suscipit lobortis dolor, eget ultricies elit bibendum ut. Aenean at leo sit amet metus pharetra lobortis at vitae dolor.
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
             </div>
         </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Зв'язок</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Телефон:
+                        <a href = "tel:+78800555353">
+                            +7(880)-055-53-53
+                        </a>
+                        <br/>
+                        Telegram:
+                        <a href = "tg://resolve?domain=@yrisska">
+                            Відправити повідомлення
+                        </a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class = "mainFooter">
+            2021©
+        </footer>
     </BODY>
 </HTML>
